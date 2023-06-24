@@ -40,17 +40,17 @@ const Ribbon = () => {
                     <FiSearch />
                 </a>
             </div>
-            <div className='flex lg:justify-end text-3xl lg:mr-[6%] lg:mt-[-3%] justify-end mt-[8%]'>
+            <div className='flex lg:justify-end  text-3xl lg:mr-[2%] lg:mt-[-3%] justify-end mt-[12%] mr-[2%]'>
                 <FiUser className=' hover:text-purple-400' />
-                <a href='#' className='text-lg lg:p-[1%] lg:mt-[-0.7%]  hover:text-purple-400'>
+                <a href='#' className='text-lg lg:p-[1%] lg-gap-[1%] hidden md:block lg:mt-[-0.7%]  hover:text-purple-400'>
                     Account
                 </a>
                 <FiHeart className=' hover:text-purple-400' />
-                <a href='#' className='text-lg lg:p-[1%] lg:mt-[-0.7%]  hover:text-purple-400'>
+                <a href='#' className='text-lg lg:p-[1%] lg:mt-[-0.7%] hidden md:block hover:text-purple-400'>
                     Wishlist
                 </a>
                 <FiShoppingCart className=' hover:text-purple-400' />
-                <a href='#' className='text-lg lg:p-[1%] lg:mt-[-0.7%]  hover:text-purple-400'>
+                <a href='#' className='text-lg lg:p-[1%] lg:mt-[-0.7%] hidden md:block hover:text-purple-400'>
                     Cart
                 </a>
 

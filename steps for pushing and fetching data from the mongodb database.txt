@@ -1,0 +1,2 @@
+1. Connect MONGODB using mongoose through the connectDB file
+2. Create mongodb models to pre-define the colelctions that will get pushed to the mongodb database

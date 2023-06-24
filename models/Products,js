@@ -1,0 +1,30 @@
+import mongoose from 'mongoose'
+
+let Product ;
+
+try{
+    Product = mongoose.model('Product')
+
+} catch(error){
+
+
+const productSchema = new mongoose.Schema ({
+    SubCategory : {
+        type: mongoose.Schema.Types.ObjectId,
+        ref:'SubCategory',
+        required:true,
+    },
+    title : {
+        type:String,
+        required:true,
+    },
+    image: {
+        type: [String],
+        required:true,
+    },
+
+
+});
+SubCategory =mongoose.model('Product', productSchema);
+}
+module.exports= Product;
